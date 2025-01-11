@@ -96,17 +96,22 @@ body {
 /*              Header              */
 .header {
   border-bottom: 1px solid var(--cornflower);
+  position: relative;
+  color: #404bbf;
 }
 
 .header .container {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  color: #404bbf;
 }
 
 .navigation {
   display: flex;
   align-items: center;
-  
+  position: relative;
+  color: #404bbf;
 }
 
 .navigation .logo {
