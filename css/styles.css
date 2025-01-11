@@ -123,12 +123,12 @@ body {
   color: var(--iris);
   position: relative;
   color: #404bbf;
+  
 }
 
 .navigation .prt {
   color: var(--navy-blue);
-  position: relative;
-  color: #404bbf;
+
 }
 
 .footer .prt {
@@ -181,7 +181,10 @@ body {
 .contact-list__link:focus {
   color: var(--ocean);
 }
-
+.logo .prt::after [
+  
+]
+.logo .prt
 /*                Hero                */
 .hero {
   background-color: var(--navy-blue);
