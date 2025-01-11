@@ -106,8 +106,7 @@ body {
 .navigation {
   display: flex;
   align-items: center;
-  position: relative;
-  color: #404bbf;
+  
 }
 
 .navigation .logo {
@@ -122,10 +121,14 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  position: relative;
+  color: #404bbf;
 }
 
 .navigation .prt {
   color: var(--navy-blue);
+  position: relative;
+  color: #404bbf;
 }
 
 .footer .prt {
