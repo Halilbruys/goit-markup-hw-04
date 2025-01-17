@@ -100,7 +100,7 @@ body {
   color: #404bbf;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    display: flex;
+  display: flex;
 }
 
 .header .container {
@@ -110,7 +110,7 @@ body {
   color: #404bbf;
 }
 
-.header .container .navigation  {
+.header .container .navigation {
   display: flex;
   align-items: center;
   position: relative;
@@ -127,37 +127,13 @@ body {
   text-transform: uppercase;
   color: var(--iris);
   position: relative;
-  color:#404bbf
-  ;
+  color: #404bbf;
   display: flex;
-  
 }
 
-.prt{
+.prt {
   color: var(--navy-blue);
-
-
-  margin-right: 76px;
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  
-  position: relative;
-  
-  ;
-  display: flex;
-
-
-
-
 }
-
-
-
-
 
 .footer .prt {
   color: var(--cloud);
@@ -198,7 +174,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-display: block;
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
 }
