@@ -116,7 +116,7 @@ body {
   color: #404bbf;
 }
 
-.header .container .navigation .logo .prt {
+.header .container .navigation .logo  {
   margin-right: 76px;
   font-family: var(--second-family);
   font-weight: 700;
@@ -126,9 +126,18 @@ body {
   text-transform: uppercase;
   color: var(--iris);
   position: relative;
-  color: #404bbf;
+  color:var(--iris)
+
+  
+}
+.logo{
   color: var(--navy-blue);
 }
+.prt{
+  color: var(--navy-blue);
+}
+
+
 
 .footer .prt {
   color: var(--cloud);
