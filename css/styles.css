@@ -117,7 +117,7 @@ body {
   color: #404bbf;
 }
 
-.logo {
+.header .container .navigation .logo {
   margin-right: 76px;
   font-family: var(--second-family);
   font-weight: 700;
@@ -131,7 +131,7 @@ body {
   display: flex;
 }
 
-.prt {
+.header .container .navigation .logo .prt {
   color: var(--navy-blue);
 }
 
