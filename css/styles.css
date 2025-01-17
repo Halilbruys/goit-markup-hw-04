@@ -12,8 +12,8 @@
   --white: #fff;
   --dairy: #fcfcfc;
 
-  --font-family: 'Roboto', sans-serif;
-  --second-family: 'Raleway', sans-serif;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
 }
 
 /*               Reset               */
@@ -98,7 +98,8 @@ body {
   border-bottom: 1px solid var(--cornflower);
   position: relative;
   color: #404bbf;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header .container {
@@ -108,18 +109,15 @@ body {
   color: #404bbf;
 }
 
-.navigation {
+.header .container .navigation {
   display: flex;
   align-items: center;
   position: relative;
   color: #404bbf;
 }
 
-.navigation .logo {
-    margin-right: 76px;
-}
-
-.logo {
+.header .container .navigation .logo {
+  margin-right: 76px;
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
@@ -129,12 +127,10 @@ body {
   color: var(--iris);
   position: relative;
   color: #404bbf;
-  
 }
 
 .navigation .prt {
   color: var(--navy-blue);
-
 }
 
 .footer .prt {
@@ -188,9 +184,6 @@ body {
   color: var(--ocean);
 }
 
-  
-
-.logo .prt
 /*                Hero                */
 .hero {
   background-color: var(--navy-blue);
@@ -221,7 +214,7 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -252,15 +245,14 @@ body {
   width: 264px;
 }
 .peculiarities .container {
-display: flex;
-align-items: center;
-justify-content: center;
-height: 112px;
-background-color: #f4f4fd;
-border-radius: 4px;
-border: 1px solid #8e8f99;
-margin-bottom: 8px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
 
 /*              Team              */
@@ -288,7 +280,6 @@ margin-bottom: 8px;
 .team__item {
   background-color: var(--white);
   border-radius: 0 0 4px 4px;
- 
 }
 
 .team__content {
@@ -340,7 +331,6 @@ margin-bottom: 8px;
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
   border-top: none;
-
 }
 
 .portfolio__card-title {
@@ -368,7 +358,7 @@ margin-bottom: 8px;
 
 .footer .logo {
   display: inline-block;
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .footer__text {
@@ -377,7 +367,5 @@ margin-bottom: 8px;
   letter-spacing: 0.02em;
   color: var(--cloud);
 
-  width: 264px ;
+  width: 264px;
 }
-
-
