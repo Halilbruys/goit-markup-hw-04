@@ -136,7 +136,7 @@ body {
 }
 .header .container .navigation .logo::after {
   position: relative; 
-  color: var(--secondary-color); 
+ 
   bottom: -1px; 
   left: 0; 
   width: 100%; 
