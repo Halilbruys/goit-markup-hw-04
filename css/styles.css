@@ -135,7 +135,27 @@ body {
 
 .prt{
   color: var(--navy-blue);
+
+
+  margin-right: 76px;
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  position: relative;
+  
+  ;
+  display: flex;
+
+
+
+
 }
+
+
 
 
 
