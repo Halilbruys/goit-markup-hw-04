@@ -109,7 +109,7 @@ body {
   color: #404bbf;
 }
 
-.header .container .navigation {
+.header .container .navigation  {
   display: flex;
   align-items: center;
   position: relative;
@@ -127,6 +127,8 @@ body {
   color: var(--iris);
   position: relative;
   color:#404bbf
+  ;
+  display: flex;
   
 }
 
