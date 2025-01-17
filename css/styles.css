@@ -116,7 +116,7 @@ body {
   color: #404bbf;
 }
 
-.header .container .navigation .logo  {
+.logo  {
   margin-right: 76px;
   font-family: var(--second-family);
   font-weight: 700;
@@ -126,13 +126,10 @@ body {
   text-transform: uppercase;
   color: var(--iris);
   position: relative;
-  color:var(--iris)
-
+  color:#404bbf
   
 }
-.logo{
-  color: var(--navy-blue);
-}
+
 .prt{
   color: var(--navy-blue);
 }
